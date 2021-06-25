@@ -18,11 +18,11 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
-brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" intellij-idea-ce
-brew cask install --appdir="~/Applications" android-studio
+ brew install --cask  --appdir="~/Applications" java
+ brew install --cask  --appdir="~/Applications" intellij-idea-ce
+#  brew install --cask  --appdir="~/Applications" android-studio
 
-brew install android-sdk
+# brew install android-sdk
 
 # Remove outdated versions from the cellar.
 brew cleanup
